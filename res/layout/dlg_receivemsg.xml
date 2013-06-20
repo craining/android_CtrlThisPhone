@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  	  <View 
+  	android:layout_width="fill_parent"
+  	android:layout_height="1dip"
+  	android:background="@color/color_white"/>
+    <ScrollView    
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"> 
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		  android:layout_width="fill_parent"
+  		  android:layout_height="wrap_content"
+  		  android:orientation="vertical">
+  		    	
+<TextView
+	android:id="@+id/text_showcyphercontent"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_marginTop="15dip"
+  	android:layout_marginLeft="10dip"
+  	android:layout_marginRight="10dip"/> 	
+  <EditText
+  	android:id="@+id/edittext_msgpwd"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:hint="在此输入短信密码"
+  	android:layout_marginTop="15dip"
+  	android:layout_marginLeft="10dip"
+  	android:layout_marginRight="10dip"
+  	android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIGJKLMNOPQRSTUVWXYZ1234567890"/>  	
+    <View 
+  	android:layout_width="fill_parent"
+  	android:layout_height="1dip"
+  	android:layout_marginLeft="5dip"
+  	android:background="@color/color_yellow"/>	
+  	  	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+  		android:stretchColumns="0,1">
+  		<TableRow>
+  		
+  		  <Button
+  			android:id="@+id/button_decodeandredo"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginTop="20dip"
+  			android:layout_marginLeft="5dip"
+  			android:text="解密"
+  			android:layout_column="0" />
+  		
+  		
+  		  <Button
+  			android:id="@+id/button_giveupdecodemsg"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginTop="20dip"
+  			android:layout_marginRight="5dip"
+  			android:text="舍弃"
+  			android:layout_column="1" />  
+  		</TableRow>
+  		
+  		</TableLayout>	
+  	</LinearLayout>
+  	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="70dp"
+    android:minHeight="50dp"
+    android:initialLayout="@layout/appwidget_provider"
+    android:configure="com.craining.book.myWidget_this.ShowWidget"
+    >
+</appwidget-provider>
+
+<!-- 选择widget列表中的应用程序名字时调用的Activity：ning.widget.Activity01
+android:updatePeriodMillis="100"-->
+

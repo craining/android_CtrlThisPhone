@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CtrlThisPhone!</string>
+    <string name="app_name">CtrlThisPhone</string>
+    
+        <string name="ctrl_cancle">取消</string>
+    <string name="ctrl_send">发送</string>
+    
+    
+    <string name="msg_sendsecretmsg_title">发送加密短信</string>
+    		<string name="msg_sendsecretmsg_inputcontent">在此输入短信内容</string>
+    		<string name="msg_sendsecretmsg_inputreadpwd">在此设定读取密码（对方凭此密码才能查阅短信内容）</string>
+</resources>
